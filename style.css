@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:wght@300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    background-color: rgb(232, 244, 255);
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+    overflow-x: hidden;
+}
+.container-1{
+    width: 85%;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    margin-top: 17px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    letter-spacing: 1.3px;
+    color:  black;
+    padding: 20px;
+    border: 1px solid rgb(215, 215, 215);
+
+
+}
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+}
+.nav-bar ul li{
+    margin: 10px;
+}
+.nav-bar ul li a{
+    color: black;
+    text-decoration: none;
+}
+.nav-bar ul li a.active{
+    text-decoration: underline;
+    text-decoration-color:  rgb(25, 168, 250)blueviolet;
+}
+.nav-bar ul li a:hover{
+        text-decoration: underline;
+    text-decoration-color:  rgb(25, 168, 250);
+}.container-2{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(205, 201, 201);
+    margin-bottom:30px;
+}
+.container-2 .img img{
+    width: 250px;
+    border-radius: 10px;
+}
+.par-btn{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.par-btn h3.italic{
+    color: rgb(43, 144, 226);
+    font-style: italic;
+    text-decoration: underline;
+}
+.par-btn button{
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 15px;
+    border: 0;
+    background-color:rgb(173, 206, 238);
+    color: rgb(27, 26, 26);
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn button{
+    background-color: rgb(213, 213, 217);
+    width: 30px;
+    border: none;
+    height: 30px;
+    border-radius: 400px;
+
+}
+.container-3{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    width: 85%;
+    justify-content: center;
+    border-radius: 20px;
+    border: 1px solid rgb(205, 201, 201);
+    margin-bottom: 20px;
+
+}
+.div-1{
+    display: flex;
+    border: 1px solid rgb(221, 215, 215);
+    margin: 10px;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+.div-1 button{
+    width: 100%;
+    padding: 7px;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color:rgb(43, 144, 226);
+    color: white;
+    font-size: 18px;
+    
+}
+.tariff{
+    padding: 10px;
+}
+footer{
+    background-color: white;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.social-icons i {
+    font-size: 25px;
+    color: rgb(99, 176, 202);
+    margin-right:20px ;
+    margin-bottom: 9px;
+}
+@media(max-width:500px){
+    .container-1{
+        flex-direction: column;
+    }
+    .container-2{
+        flex-direction: column;
+    }
+    .container-2 img{
+        margin-top: 20px;
+    }
+    .container-3 .div-1{
+        flex-direction: column;
+        align-items:flex-start ;
+}   
+    .container-3 .div-1 button{
+        width: 200px;
+    }
+}
