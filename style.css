@@ -15,6 +15,21 @@ body{
     margin: auto;
     overflow-x: hidden;
 }
+.btnup{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    border: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(90, 197, 233);
+}
 .container-1{
     width: 85%;
     background-color: white;
@@ -167,3 +182,4 @@ footer{
         width: 200px;
     }
 }
+
